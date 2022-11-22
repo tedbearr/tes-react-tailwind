@@ -4,9 +4,9 @@ import { FaHome } from "react-icons/fa";
 function Breadcumb() {
   return (
     <div>
-      <div className="px-10">
-        <div className="h-auto bg-white w-full rounded-md px-5 py-5">
-          <nav class="flex" aria-label="Breadcrumb">
+      <div className="px-10 overflow-x-hidden">
+        <div className="h-auto bg-white w-full overflow-x-hidden rounded-md px-5 py-5">
+          <nav class="flex sm:flex-row" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-3">
               <li class="inline-flex items-center">
                 <a
@@ -31,9 +31,7 @@ function Breadcumb() {
                       clip-rule="evenodd"
                     ></path>
                   </svg>
-                  <a href="#" class="ml-1 text-sm font-medium">
-                    Home
-                  </a>
+                  <span class="ml-1 text-sm font-medium">Home</span>
                 </div>
               </li>
               <li aria-current="page">

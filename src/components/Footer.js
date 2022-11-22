@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bottom-0 mt-28 relative h-full w-full bg-white">
+    <div className="bottom-0 mt-auto relative h-5 w-full bg-white">
       <ul className="flex flex-row w-full h-full">
         <li className="w-full flex items-center justify-start pl-3">
           <small>
